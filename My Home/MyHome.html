@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "background">
+        <div class = "centural">
+            <div class = "clock">
+                <span>00:00:00</span>
+            </div>
+            <div class = "log-in">
+                <form class = "form">
+                    <input type="text" required maxlength="15"
+                    placeholder="What is your Name?" autofocus>
+                    <input type="submit" value="Log in">
+                </form>
+                <h1 class = "greeting hidden" class = "hidden"></h1><br>
+            </div>
+        </div>
+        <div class = "todo hidden">
+            <div id = "todo-input">
+                <form>
+                    <input id = "todo-inputinput" type="text" placeholder="What are you going to do?" required>
+                </form>    
+            </div>
+            <ul id = "todo-list"></ul>
+            <div id = "quote">
+                <span></span><br><br>
+                <span></span>
+            </div>
+        </div>
+        <span class = "weather"></span>
+    </div>
+    
+    <script src="scripts/background.js"></script>
+    <script src="scripts/login.js"></script>
+    <script src="scripts/clock.js"></script>
+    <script src="scripts/todo.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>

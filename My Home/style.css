@@ -1,0 +1,78 @@
+body {
+    margin : 0;
+}
+
+.centural {
+    /*background-color: rgb(86, 219, 115, 0.5);*/
+    display: grid;
+    place-items: center center;
+    position: relative;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 600px;
+  }
+
+.clock {
+    /*background-color: rgb(86, 188, 219, 0.5);*/
+    text-align: center;
+    font-size: 9em;
+    color:azure;
+    text-shadow: 2px 2px 2px gray;
+    font-family: Times, serif;
+    font: bold;
+    height: 180px;
+}
+
+.log-in {
+    /*background-color: rgba(155, 77, 228, 0.5);*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: azure;
+}
+
+.todo {
+    /*background-color: rgba(77, 130, 228, 0.5);*/
+    position: absolute;
+    height: 100vh;
+    width: 30vw;
+    max-width: 300px;
+    top: 0px;
+    right: 0px;
+    color: azure;
+    font-family: san-serif;
+    font-size: larger;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+.hidden {
+    text-align: center;
+    display: none;
+}
+
+#todo-input {
+    /*background-color: rgba(228, 87, 77, 0.5);*/
+    height: 100px;
+    width:100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+#todo-inputinput {
+    /*background-color: rgba(238, 241, 26, 0.5);*/
+    position: absolute;
+}
+
+.weather {
+    /*background-color: rgba(238, 241, 26, 0.5);*/
+    position: absolute;
+    height: 100px;
+    bottom: 0px;
+    text-align: center;
+    width:100%;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    text-shadow: 2px 2px 2px gray;
+}
